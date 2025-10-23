@@ -6,11 +6,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "dompurify": "^3.3.0",
+    "jsdom": "^27.0.1",
     "next": "canary",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
   "devDependencies": {
+    "@types/jsdom": "^27.0.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "typescript": "^5"
